@@ -1,0 +1,32 @@
+<travel>
+	<airport a_id="air1">
+		<name>DFW</name>
+	</airport>
+	<airport a_id="air2">
+		<name>JFK</name>
+	</airport>
+	<flight f_id="fly1" fliesFrom="air1" fliesTo="air2">
+		<date>11/20/2014</date>
+		<departureTime>0500</departureTime>
+		<arrivalTime>1300</arrivalTime>
+	</flight>
+	<flight f_id="fly2" fliesFrom="air2" fliesTo="air1">
+		<date>11/09/2014</date>
+		<departureTime>0900</departureTime>
+		<arrivalTime>1800</arrivalTime>
+	</flight>
+	<passenger ssnID="123456789">
+		<name>John Smith</name>
+		<address>513 Summit Ave</address>
+	</passenger>
+	<passenger ssnID="987654321">
+		<name>Vivek Kaushal</name>
+		<address>607 Summit Ave</address>
+	</passenger>
+	<reservation pID="123456789" fID="fly1">
+		<creditCard>AMEX</creditCard>
+	</reservation>
+	<reservation pID="987654321" fID="fly2">
+		<creditCard>VISA</creditCard>
+	</reservation>
+</travel>
